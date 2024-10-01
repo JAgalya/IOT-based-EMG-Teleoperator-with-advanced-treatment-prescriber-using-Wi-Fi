@@ -8,8 +8,8 @@ int sampleCount = 0;
 
 // Define threshold values
 const float lowThreshold = 20.0; // Abnormally low threshold in mV
-const float moderateThreshold = 200.0; // Moderate threshold in mV
-const float higherThreshold = 300.0; // Higher threshold in mV
+const float moderateThreshold = 30.0; // Moderate threshold in mV
+const float higherThreshold = 50.0; // Higher threshold in mV
 
 void setup() {
   Serial.begin(9600);
